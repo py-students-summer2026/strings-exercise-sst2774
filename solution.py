@@ -11,10 +11,13 @@ def get_adj():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
+    adjective = input("Please enter an adjective: ")
 
     # don't modify the return statement below...
-    return word
+    return adjective
 
+if __name__ == "__main__":
+    get_adj()
 
 def get_verb():
     """
@@ -22,10 +25,13 @@ def get_verb():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
+    verb = input("Please enter a verb: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return word
+    return verb
 
+if __name__ == "__main__":
+    get_verb()
 
 def get_plural_noun():
     """
@@ -33,10 +39,13 @@ def get_plural_noun():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
+    plural_noun = input("Please enter a pulural noun: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return word
+    return plural_noun
 
+if __name__ == "__main__":
+    get_plural_noun()
 
 def get_proper_noun():
     """
@@ -44,10 +53,13 @@ def get_proper_noun():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
+    proper_noun = input("Please enter a proper noun: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return word
+    return proper_noun
 
+if __name__ == "__main__":
+    get_proper_noun()
 
 def generate():
     """
@@ -64,9 +76,18 @@ def generate():
     """
 
     # write your code for this function below this line...
+    adjective_1 = get_proper_noun()
+    adjective_2 = get_proper_noun()
+    verb_1 = get_verb()
+    verb_2 = get_verb()
+    plural_noun_1 = get_plural_noun()
+    plural_noun_2 = get_plural_noun()
+    proper_noun_1 = get_proper_noun()
+    proper_noun_2 = get_proper_noun()
+
     # feel free to modify the given poem code and add any additional code as necessary
 
-    poem = """
+    poem = f"""
     'Twas {adjective_1}, and the slithy toves
     Did {verb_1} and gimble in the wabe;
     All {adjective_2} were the borogoves,
@@ -80,3 +101,6 @@ def generate():
 
     # don't modify the print statement below... leave it as the last line in this function
     print(poem)
+
+if __name__ == "__main__":
+    generate()
