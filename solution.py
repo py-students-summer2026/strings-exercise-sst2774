@@ -11,10 +11,10 @@ def get_adj():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
-    adjective = input("Please enter an adjective: ")
+    word = input("Please enter an adjective: ")
 
     # don't modify the return statement below...
-    return adjective
+    return word
 
 if __name__ == "__main__":
     get_adj()
@@ -25,10 +25,10 @@ def get_verb():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
-    verb = input("Please enter a verb: ")
+    word = input("Please enter a verb: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return verb
+    return word
 
 if __name__ == "__main__":
     get_verb()
@@ -39,10 +39,10 @@ def get_plural_noun():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
-    plural_noun = input("Please enter a pulural noun: ")
+    word = input("Please enter a pulural noun: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return plural_noun
+    return word
 
 if __name__ == "__main__":
     get_plural_noun()
@@ -53,10 +53,10 @@ def get_proper_noun():
       :returns: the text entered by the user
     """
     # write your code for this function below this line
-    proper_noun = input("Please enter a proper noun: ")
+    word = input("Please enter a proper noun: ")
 
     # don't modify the return statement below... leave it as the last line in this function
-    return proper_noun
+    return word
 
 if __name__ == "__main__":
     get_proper_noun()
